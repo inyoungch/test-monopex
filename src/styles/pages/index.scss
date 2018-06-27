@@ -1,0 +1,188 @@
+.header{
+    margin: 20px 0;
+    margin-bottom: 40px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.container-flex{
+    display: flex;
+}
+
+.logo__pic{
+    margin-right: 80px;
+}
+
+.nav__menu{
+    display: flex;
+}
+
+.nav__item{
+    margin-right: 55px;
+}
+
+.nav__link{
+    color: $dark-blue;
+    text-decoration: overline;
+
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+.nav__link--orange{
+    color: $orange;
+}
+
+.nav__link--active{
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.main-block{
+    margin-bottom: 85px;
+}
+
+.about{
+    width: 580px;
+    margin-bottom: 50px;
+}
+
+.about__title{
+    font-size: 45px;
+    font-weight: bold;
+    font-style: normal;
+    color: $dark-blue;
+    margin-bottom: 10px;
+}
+
+.about__desk, .workers__name, .advantages__desc{
+    font-size: 14px;
+}
+
+.workers__list{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.workers__occ{
+    color: $blue;
+}
+
+.slider__arrows{
+    position: relative;
+}
+
+.slider__arrows-left{
+    position: absolute;
+    top: 50%;
+    left: -23%;
+}
+
+.slider__arrows-right{
+    position: absolute;
+    top: 50%;
+    right: -23%;
+}
+
+.license{
+    margin-bottom: 90px;
+}
+
+.license-info{
+    background: $blue-bg;
+    width: 830px;
+    padding: 45px 70px;
+    margin-right: 70px;
+}
+
+.license-info__item{
+    margin-bottom: 30px;
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+
+    &:before{
+        content:"";
+        width: 16px;
+        height: 3px;
+        background: $orange;
+        position: absolute;
+        margin-left: -30px;
+        margin-top: 10px;
+    }
+}
+
+.license-info__text{
+    font-size: 18px;
+
+    & span{
+        color: $gray;
+    }
+}
+
+.license-year{
+    display: flex;
+    align-items: center;
+}
+
+.advantages{
+    margin-bottom: 115px;
+}
+
+
+.advantages__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages__item{
+    flex: 1;
+}
+
+.advantage{
+    width: 190px;
+    text-align: center;
+}
+
+.advantages__img{
+    height: 105px;
+}
+
+
+.footer{
+    height: 105px;
+    background: $dark-blue;
+    display: flex;
+    justify-content: space-around;
+    line-height: 105px;
+}
+
+.nav__link--white{
+    color: $white;
+    text-decoration: underline;
+
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+.madein{
+    display: flex;
+}
+
+.madein__text{
+    color: $white;
+    margin-right: 15px;
+}
+
+.madein__pic{
+    display: flex;
+    align-items: center;
+}

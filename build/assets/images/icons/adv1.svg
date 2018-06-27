@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 2938.7" enable-background="new 0 0 1200 2938.7" xml:space="preserve">
+<g id="grid">
+</g>
+<g id="_x32_4_Grid_Col">
+	<path fill="#C6D2E5" d="M670.7,1462.4c0,2.2,5.2,4,11.7,4c6.4,0,11.7-1.8,11.7-4V1443h-23.3V1462.4z"/>
+	<path fill="#25264C" d="M660.7,1441.4c0,4.1,9.7,7.5,21.7,7.5c12,0,21.7-3.4,21.7-7.5v-36.1h-43.3V1441.4z"/>
+	<ellipse fill="#C6D2E5" cx="682.3" cy="1405.3" rx="21.7" ry="7.5"/>
+	<path fill="#FF9000" d="M670.7,1404.4c0,2.2,5.2,4,11.7,4c6.4,0,11.7-1.8,11.7-4V1385h-23.3V1404.4z"/>
+	<circle fill="#25264C" cx="678.1" cy="1395.8" r="2.7"/>
+	<path fill="none" stroke="#25264C" stroke-miterlimit="10" d="M699.5,1452.6L699.5,1452.6c4.3,0,7.9,3.5,7.9,7.9v2.3
+		c0,4.3-3.5,7.9-7.9,7.9l0,0c-3,0-5.5,2.5-5.5,5.5v4.8"/>
+	<path fill="#FF9000" d="M697.2,1450.2h-4.4v4.9h4.4c1.3,0,2.4-1.1,2.4-2.4v0C699.7,1451.3,698.6,1450.2,697.2,1450.2z"/>
+	<ellipse fill="#25264C" cx="682.3" cy="1385" rx="11.7" ry="4"/>
+</g>
+</svg>

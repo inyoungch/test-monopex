@@ -1,0 +1,110 @@
+extends ../template
+
+block variables
+    - var title = 'Test'
+
+block content
+    .wrapper
+        header.header
+            .container.container-flex
+                .logo
+                    img.logo__pic(src="assets/images/logo.png")
+                .nav
+                    ul.nav__menu
+                        li.nav__item
+                            a.nav__link.nav__link--active О компании
+                        li.nav__item
+                            a.nav__link Продукция
+                        li.nav__item
+                            a.nav__link Галерея
+                        li.nav__item
+                            a.nav__link Модернизация весов
+                        li.nav__item
+                            a.nav__link Контакты
+                        li.nav__item
+                            a.nav__link.nav__link--orange Помощь в выборе весов
+        .main-block
+            .container
+                .about
+                    .about__title О компании
+                    .about__desk ТОО Весовая предоставляет услуги по поставке и модернизации весового оборудования в Казахстане. В ассортименте широкий спектр весового оборудования: лабораторные весы ***, товарные весы ***, вагонные и автомобильные весы, грузоподъемностью 200 тонн.
+                .workers
+                    .slider__arrows
+                        a.slider__arrows-left(href="#")
+                           img.slider__arrows-left__pic(src="assets/images/arrow-left.png", alt="")
+                        a.slider__arrows-right(href="#")
+                           img.slider__arrows-right__pic(src="assets/images/arrow-right.png", alt="")
+                    ul.workers__list
+                        li.workers__item 
+                            img.workers__pic(src="assets/images/photo1.png", alt="photo 1")
+                            .workers__occ Генеральный директор
+                            .workers__name Руслан Белялов
+                        li.workers__item 
+                            img.workers__pic(src="assets/images/photo2.png", alt="photo 2")
+                            .workers__occ Системомеханик
+                            .workers__name Коппель Павел
+                        li.workers__item 
+                            img.workers__pic(src="assets/images/photo3.png", alt="photo 3")
+                            .workers__occ Офис-менеджер
+                            .workers__name Алия Тезекбаева
+                        li.workers__item 
+                            img.workers__pic(src="assets/images/photo4.png", alt="photo 4")
+                            .workers__occ Системомеханик
+                            .workers__name Дмитрий Калинов
+        .license
+            .container.container-flex
+                .license-info
+                    ul.license-info__list
+                        li.license-info__item
+                            .license-info__text Отечественный производитель 
+                                span (СТ КЗ  165000022);
+                        li.license-info__item
+                            .license-info__text Наличие лицензии на производство средств измерений 
+                                span (Серия АА №000630);
+                        li.license-info__item
+                            .license-info__text Наличие лицензии на строительную деятельность 
+                                span (11 ГСЛ-КР №01482);
+                        li.license-info__item
+                            .license-info__text Производимая продукция зарегистрирована в Реестре  государственной системе обеспечения единства измерений Республики Казахстан за № KZ 02.02.01469-2008.
+                .license-year
+                    img.license-year__pic(src="assets/images/year.png", alt="year")
+        .advantages
+            .container
+                ul.advantages__list
+                    li.advantages__item
+                        .advantage
+                            .advantages__img
+                                img.advantages__pic(src="assets/images/icons/adv1.png", alt="year")
+                            .advantages__desc Официальный дистрибьютор производителя тензометрических датчиков компании Util Cell
+                    li.advantages__item
+                        .advantage
+                            .advantages__img
+                                img.advantages__pic(src="assets/images/icons/adv2.png", alt="year")
+                            .advantages__desc Гибкая ценовая политика
+                    li.advantages__item
+                        .advantage
+                            .advantages__img
+                                img.advantages__pic(src="assets/images/icons/adv3.png", alt="year")
+                            .advantages__desc Постоянное усовершенствование предлагаемой продукции
+                    li.advantages__item
+                        .advantage
+                            .advantages__img
+                                img.advantages__pic(src="assets/images/icons/adv4.png", alt="year")
+                            .advantages__desc Расширение линейки продукции
+        footer.footer
+            .nav
+                ul.nav__menu
+                    li.nav__item
+                        a.nav__link.nav__link--white О компании
+                    li.nav__item
+                        a.nav__link.nav__link--white Продукция
+                    li.nav__item
+                        a.nav__link.nav__link--white Галерея
+                    li.nav__item
+                        a.nav__link.nav__link--white Модернизация весов
+                    li.nav__item
+                        a.nav__link.nav__link--white Контакты
+            .madein
+                .madein__text Сделано в РИЗН
+                .madein__pic
+                    img.madein__img(src="assets/images/icons/rizn.png", alt="year")
